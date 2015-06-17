@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="874" lt="541" ts="1434559843725" s="true" lb="HTTP Request_google_test_automation" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22657">
+  <httpSample t="541" lt="541" ts="1434559843725" s="true" lb="http://google.com/?q=test+automation" rc="301" rm="Moved Permanently" tn="" dt="text" by="609"/>
+  <httpSample t="330" lt="321" ts="1434559844269" s="true" lb="http://www.google.com/?q=test+automation" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22048"/>
+</httpSample>
+
+</testResults>
