@@ -354,6 +354,6 @@ sub GenerateStats {
 
 sub usage {
     print(STDERR $_[0]) if @_;
-    print(STDERR "usage: perl jMetertToJunit.pl --file report.html\n");
+    print(STDERR "usage: perl jMetertToJunit.pl --file result.jtl --jtl --reportfile junitout.xml\n");
     exit(1);
 }
